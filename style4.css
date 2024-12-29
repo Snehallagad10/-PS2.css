@@ -1,0 +1,31 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*  Box styling */
+.virtual-box {
+    width: 80%; /* Set width of the box */
+    margin: 50px auto; /* Center the box horizontally with a margin */
+    padding: 40px;
+    background-image: url('https://via.placeholder.com/800x600'); /* Background image */
+    background-size: cover; /* Make the background cover the box */
+    background-position: center; /* Center the background */
+    background-attachment: fixed; /* Make the background fixed and non-scrolling */
+    color: #fff; /* Text color */
+    border: 2px solid #ccc; /* Optional border around the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* Style for text in the virtual box */
+.virtual-box h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.virtual-box p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

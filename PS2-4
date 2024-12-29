@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Background Box</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+
+    <!-- Virtual box with fixed background -->
+    <div class="virtual-box">
+        <h1>Fixed Background Box</h1>
+        <p>This box has a non-scrolling background. Scroll the page to see the effect!</p>
+        <p>Try scrolling the page and notice that the background stays in place.</p>
+    </div>
+
+</body>
+</html>

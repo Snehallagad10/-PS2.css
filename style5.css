@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Box with background shorthand properties */
+.background-box {
+    width: 80%;
+    margin: 50px auto;
+    padding: 40px;
+    height: 300px;
+    
+    /* Using the background shorthand with some values skipped */
+    background: #3498db url('https://via.placeholder.com/800x300') no-repeat; /* Only background-color, background-image, and background-repeat */
+    
+    /* Optional: set background-size and position using separate properties */
+    background-size: cover;
+    background-position: center;
+    
+    color: #fff;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for text inside the box */
+.background-box h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.background-box p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

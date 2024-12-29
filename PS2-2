@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Red Container</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a sample webpage with a dark red container. The layout is styled using external CSS.</p>
+        <p>Explore the styles and feel free to modify them.</p>
+        <a href="#" class="button">Click Me</a>
+    </div>
+
+</body>
+</html>

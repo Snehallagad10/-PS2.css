@@ -1,0 +1,18 @@
+/* Apply basic reset for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the div with background image */
+.image-container {
+    width: 500px; /* Set the width of the div */
+    height: 300px; /* Set the height of the div */
+    background-image: url('https://via.placeholder.com/500x300'); /* Background image URL */
+    background-size: cover; /* Make sure the image covers the div */
+    background-position: center; /* Position the image at the center of the div */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    border: 1px solid #ddd; /* Optional border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
